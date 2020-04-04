@@ -1,0 +1,30 @@
+{
+    "name": "pierreminiggio/output-overrider",
+    "description": "Override PHP output to feed it into a string",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\OutputOverrider\\": "src/",
+            "PierreMiniggio\\OutputOverriderTest\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "bash vendor/bin/phpunit tests/"
+    },
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
